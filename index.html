@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <h1 class="header-title">Simple, traffic-based pricing</h1>
+        <p class="header-text">Sign-up for our 30-day trial. <span class="header-text-bottom">No credit card required.</span></p>
+      </header>
+      <form class="card">
+        <div class="card-top">
+          <div class="grid">
+            <div id="plan-description" class="plan-description">100K PAGEVIEWS</div>
+            <input type="range" class="range" min="0" max="4" value="2" style="--value: 50%" id="range" />
+            <div class="card-result">
+              <span class="card-result-value" id="plan-value">$16.00</span>
+              <span>/ month</span>
+            </div>
+          </div>
+          <div class="switch-container">
+            <div>Monthly Billing</div>
+            <label class="switch">
+              <input type="checkbox" id="switch" />
+              <span class="switch-slider"></span>
+            </label>
+            <div>
+              <span>Yearly Billing</span>
+              <span class="badge badge-mobile">-25%</span>
+              <span class="badge badge-desktop">25% discount</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-bottom">
+          <ul class="card-bottom-list">
+            <li>Unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>Email reports</li>
+          </ul>
+          <button class="btn">Start my trial</button>
+        </div>
+      </form>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

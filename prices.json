@@ -1,0 +1,22 @@
+[
+  {
+    "description": "10K",
+    "value": 8
+  },
+  {
+    "description": "50K",
+    "value": 12
+  },
+  {
+    "description": "100K",
+    "value": 16
+  },
+  {
+    "description": "500k",
+    "value": 24
+  },
+  {
+    "description": "1M",
+    "value": 36
+  }
+]
