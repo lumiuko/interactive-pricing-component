@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/3S0Bkba.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-pricing-component-using-vanilla-js-z252dqHgKv](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-vanilla-js-z252dqHgKv)
+- Live Site URL: [https://interactive-pricing-page.netlify.app/](https://interactive-pricing-page.netlify.app/)
 
 ## My process
 
